@@ -4,6 +4,7 @@ package com.example.productsAPI.controller;
 import com.example.productsAPI.controller.dto.ProductDto;
 import com.example.productsAPI.entity.Product;
 import com.example.productsAPI.service.ProductService;
+import com.example.productsAPI.service.ProductServiceMySQL;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -29,8 +30,8 @@ public class ProductController{
         return productService.all();
     }
 
-    @CrossOrigin
-    @PostMapping()
+    @CrossOrigin("*")
+    @PostMapping
     public Product save(@RequestBody ProductDto productDto){
 
         return productService.save(new Product(productDto));
