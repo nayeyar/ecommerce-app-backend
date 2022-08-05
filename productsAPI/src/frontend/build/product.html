@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./resources/CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-success bg-gradient">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><span class="fw-bold">365</span> Fit</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="product.html">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <br>
+    <nav class="navbar navbar-expand-lg bg-light bg-gradient">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#pdtCtgrNavbarDropdown" aria-controls="pdtCtgrNavbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="pdtCtgrNavbarDropdown">
+          <ul class="navbar-nav">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="forWomen.html">For women</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="forChildren.html">For children</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="forMen.html">For men</a>
+            </li>
+            <li class="nav-item dropdown">
+             
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <br>
+
+    <main>
+        <div class="container">
+            <div class="row"> <!--dropdown for price and size-->
+
+                <div class="col text-end">
+                    <h6>Filter</h6>
+                    <hr>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                          From low to high price
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-lg-end">
+                          <li><button class="dropdown-item" type="button">From small to large size</button></li>
+                          <li><button class="dropdown-item" type="button">From low to high rating</button></li>
+                        </ul>
+                    </div> 
+                </div>  
+            </div>  <!--dropdown for price and size-->
+            <hr>
+            <br>
+            <div class="row" id="list-products">
+              <!-- <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div> -->
+            </div>  <!--list-products row-->
+            <div class="row">
+              <div class="col">
+                <img src=".\resources\images\kid1.jpg">
+                <h3>Dress for girls</h3>
+                <h4>$12</h4>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <div>
+                  <button type="button" class="btn btn-primary">Add to cart</button>
+                  <button type="button" class="btn btn-success">Buy now</button>
+                </div>
+              </div>
+              <div class="col">
+                <img src=".\resources\images\kid2.jpg">
+                <h3>2 dresses for girls</h3>
+                <h4>$20</h4>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <div>
+                  <button type="button" class="btn btn-primary">Add to cart</button>
+                  <button type="button" class="btn btn-success">Buy now</button>
+                </div>
+              </div>
+              <div class="col">
+                <img src=".\resources\images\kid3.jpg">
+                <h3>Pajamas for babies</h3>
+                <h4>$30</h4>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <div>
+                  <button type="button" class="btn btn-primary">Add to cart</button>
+                  <button type="button" class="btn btn-success">Buy now</button>
+                </div>
+              </div>
+              <div class="col">
+                <img src=".\resources\images\kid4.jpg">
+                <h3>Clothess</h3>
+                <h4>$35</h4>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <div>
+                  <button type="button" class="btn btn-primary">Add to cart</button>
+                  <button type="button" class="btn btn-success">Buy now</button>
+                </div>
+              </div>
+            </div>  <!--products row-->
+        </div>  <!--container-->
+        <div class="container-fluid text-light mt-3" style="background-image: url('resources/images/landscape/burgess-milner-OYYE4g-I5ZQ-unsplash.jpg'); background-size: cover;">
+          <div class="row justify-content-center">
+            <div class="col-6 pt-3 pb-3 bg-secondary" style="--bs-bg-opacity: .75">
+              <form class="productForm">
+                <div class="mb-3">
+                  <label for="productName" class="form-label">Product Name</label>
+                  <input type="text" class="form-control" id="productName" placeholder="Enter Product Name">
+                </div>
+                <div class="mb-3">
+                  <label for="productDescription" class="form-label">Product Description</label>
+                  <input type="text" class="form-control" id="productDescription" placeholder="Enter Product Description">
+                </div>
+                <div class="mb-3">
+                  <label for="productImg" class="form-label">Image</label>
+                  <input type="text" class="form-control" id="productImg" placeholder="Add Image">
+                </div>
+                <!-- <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="productCheck">
+                  <label class="form-check-label" for="productCheck">Confirm</label>
+                </div> -->
+                <button type="submit" class="btn btn-primary addProductBtn">Add Product</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+    </main>
+    
+
+    <footer>
+
+    </footer>
+    
+    <!-- <script src="resources/script/productsController.js"></script> -->
+    <script type="module" src="resources/script/product-form.js"></script>
+    <!-- <script type="module" src="resources/script/products.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>

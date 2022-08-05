@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./resources/CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-success bg-gradient">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><span class="fw-bold">365</span> Fit</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"><ion-icon name="home-outline"></ion-icon> Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html"><ion-icon name="alert-circle-outline"></ion-icon> About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="product.html"><ion-icon name="storefront-outline"></ion-icon> Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><ion-icon name="people-outline"></ion-icon> Contact</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <div class="position-relative"> <!--showcase-->
+            <video class="img-fluid" style="width: 100%;" autoplay muted loop src="./resources/images/pexels-yaroslav-shuraev-7645683.mp4"></video>
+
+            <div class="container-fluid text-center position-absolute top-50 start-50 translate-middle">
+                <h1 class="text-light">Move Free Live Free</h1>
+                <div class="row justify-content-center">
+                    <div class="col-md-2 p-1 my-1 me-0">
+                        <button type="button" class="btn btn-outline-light">Shop Now</button>
+                    </div>
+                    <div class="col-md-2 p-1 my-1 ms-0">
+                        <button type="button" class="btn btn-outline-light">Lifestyle</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>  <!--showcase-->
+
+        <div class="container"> <!---->
+            <div class="row justify-content-center align-items-center">
+                <div class="col m-1 p-1">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <!--
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        -->
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Yes, I would love to receive the latest promotion and product update</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+                
+                <div class="col m-1 p-1">
+                    <h5>365 Fit is a workout  and casual apparel site that is deeply invested in leaving a carbon footprint. Our brand 365 fit believes that in order to reduce environmental impact, every business should do their part.  365 Fit apparel is crafted with our customers and planet in mind. Our clothes are designed and created with 100% natural fibers. 365 Fit uses sustainable materials such as wool, cotton, silk, and linen. These materials are biodegradable and doesn’t contribute to pollution. Not only do you look good, but feel good for doing your part for our planet.</h5>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center align-items-center m-1 p-1">
+                <div class="col">
+                    <div id="carouselLeft" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselLeft" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselLeft" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselLeft" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="resources/images/portrait/amr-taha-PpkID3ejSig-unsplash.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resources/images/portrait/clarisse-meyer-rx47C9fBccg-unsplash.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resources/images/portrait/eli-defaria-IN6KPUe8j04-unsplash.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselLeft" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselLeft" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="carouselRight" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselRight" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselRight" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselRight" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselRight" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="resources/images/portrait/yasu-shots-_y6hMz1pJC0-unsplash.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resources/images/portrait/ussama-azam-xgNSlx7DjYM-unsplash.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resources/images/portrait/max-titov-Mhktr6dFD3I-unsplash.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resources/images/portrait/marionel-luciano-f615lHRUJqw-unsplash.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselRight" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselRight" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+    <!--ionicons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
